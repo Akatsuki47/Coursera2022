@@ -1,6 +1,60 @@
 /*Navbar styling*/
+header {
+    background-color: #ff6666;
+    color: #ffffff;
+    height: 100px;
+    font-size: 50px;
+    font-weight: 600;
+}
 /*Menu bar*/
+
 /* .centre*/
-/*bg colour for divs*/
+.centre {
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background-color: #ff8686;
+    color: #cccccc;
+}
+.bg-baby-pink {
+    background-color: #ffb3b3;
+    border-color: #ff6666;
+    color: #737373;
+    border-style: solid;
+    border-radius: 10px;
+}
 /*style divs with rounded corners*/
-/*give height to header*/
+div {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*change font colours*/
+
+
+
+@media (max-width: 767px) {
+    .menu-bar {
+        height: 5px;
+        width: 35px;
+        background-color: #ffffff;
+        margin-bottom: 3px;
+    }    
+    .brand-name {
+        float: inline-start;
+    }
+    .dropdown {
+        float: inline-end;
+    }
+    .dropdown-menu {
+        width: 100%;
+        background-color: #ff6666;
+        color: #ffffff;
+        border-color: #ff6666;
+    }
+    .dropdown-items {
+        padding-left: 50%;
+        padding-right: 50%;
+    }
+}
