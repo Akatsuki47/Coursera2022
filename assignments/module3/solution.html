@@ -17,16 +17,16 @@
         <header id="top">
             <nav class="navbar container">
                 <div class="brand-name">Food, LLC</div>
-                    <div type="button" class="btn" data-bs-toggle= "dropdown">
+                    <div type="button" class="btn" data-bs-toggle= "collapse" data-bs-target="#dropdownmenu">
                         <div class="menu-bar"></div>
                         <div class="menu-bar"></div>
                         <div class="menu-bar"></div> 
                     </div>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#chicken">Chicken</a></li>
-                        <li><a class="dropdown-item" href="#beef">Beef</a></li>
-                        <li><a class="dropdown-item" href="#sushi">Sushi</a></li>
-                    </ul>
+                    <div id="dropdownmenu" class="collapse dropdown-menu">
+                            <a class="dropdown-item" href="#chicken">Chicken</a> <br>
+                            <a class="dropdown-item" href="#beef">Beef</a> <br>
+                            <a class="dropdown-item" href="#sushi">Sushi</a>
+                    </div>
             </nav>
         </header>
         <div class="container">
